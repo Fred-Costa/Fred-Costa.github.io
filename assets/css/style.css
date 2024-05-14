@@ -693,7 +693,7 @@ section .container {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.services .icon-box{
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
@@ -769,6 +769,8 @@ section .container {
 .services .icon-box:hover p {
   color: #fff;
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1202,4 +1204,27 @@ section .container {
 
 .btn-download:hover {
   background-color: #555; /* Darken color on hover */
+}
+
+.services .icon-box .technologies-used {
+  margin-top: 15px;
+}
+
+.services .icon-box .technologies-used p {
+  margin-bottom: 5px;
+  font-weight: bold; /* Make the text bold */
+  color: #15bb62;
+}
+
+.services .icon-box .technologies-used ul {
+  list-style-type: disc; /* Use disc bullets */
+  padding-left: 20px; /* Add left padding for bullets */
+}
+
+.services .icon-box .technologies-used li {
+  margin-bottom: 5px;
+}
+
+.services .icon-box .technologies-used li:last-child {
+  margin-bottom: 0; /* Remove margin for the last list item */
 }
